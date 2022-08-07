@@ -1,3 +1,21 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+#
+# Complete the 'bitwiseAnd' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER N
+#  2. INTEGER K
+#
+
 def bitwiseAnd(N, K):
     # Write your code here
     max_possible = 0
@@ -30,4 +48,18 @@ if __name__ == '__main__':
                 print(n, k, res, check)
 # fptr.write(str(res) + '\n')
 # fptr.close()
+=======
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+import sys
+import datetime
+
+
+
+
+lines = ['1 1 2010','31 12 2009' ]
+
+#for i in range(4):
+#    lines.append(input())
+#print(calculate_fee(lines))
 
